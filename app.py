@@ -34,10 +34,10 @@ st.markdown("""<style>
     /* Selectbox background and font set to transparent and white */
     .stSelectbox div[data-baseweb="select"] {
         background-color: transparent !important;
-        color: white !important;
+        color: black !important;
     }
     .stSelectbox div[data-baseweb="select"] * {
-        color: white !important;
+        color: black !important;
     }
 
     /* Headings and labels */
