@@ -65,7 +65,7 @@ st.subheader("🤖 What is the current issue you have?")
 center_col = st.columns([1, 2, 1])[1]
 
 with center_col:
-    user_input = st.text_area("Ask your question:", height=70)
+    user_input = st.text_area("What is your problem?:", height=70)
     if st.button("Submit Your Question To Doti (5-15 Seconds) ➡️"):
         if not user_input.strip():
             st.warning("Please enter a case description.")
